@@ -29,8 +29,7 @@ class GlobeApi
 
 		$response = $this->client->post($url, $params);
 
-		return $response->getBody();
+		return $response;
 
-		// return $response;
 	}
 }
