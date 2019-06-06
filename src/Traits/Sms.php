@@ -1,6 +1,6 @@
 <?php
 
-namespace Globe\Traits;
+namespace CoreDev\LaravelGlobeLabs\Traits;
 
 trait Sms
 {

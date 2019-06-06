@@ -1,6 +1,6 @@
 <?php
 
-namespace Globe;
+namespace CoreDev\LaravelGlobeLabs;
 
 use GuzzleHttp\Client;
 
