@@ -22,10 +22,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CoreDev\\LaravelGlobeLabs\\GlobeServiceProvider"
+                "CoreDev\\LaravelGlobeLabs\\GlobeServiceProvider::class"
             ],
             "aliases": {
-                "Globe": "CoreDev\\LaravelGlobeLabs\\Globe"
+                "Globe": "CoreDev\\LaravelGlobeLabs\\Globe::class"
             }
         }
     }
