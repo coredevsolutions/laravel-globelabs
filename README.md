@@ -49,3 +49,23 @@ use Globe;
 
 Globe::send('phone_number', 'message', 'passphrase', 'app_id', 'app_secret', 'short_code');
 ```
+
+
+
+#### Credits
+
+- Kurt Dacudag ([@kpdcdg](https://github.com/kpdcdg))
+- Mark Kevin Pogoy ([@marklee138](https://github.com/marklee138/))
+- Bree Dingding ([@breekoy](https://github.com/breekoy))
+
+
+
+#### Contribute
+
+Please feel free to fork and send a pull request with your changes!
+
+
+
+#### License
+
+Released under the [MIT License](https://github.com/coredevsolutions/laravel-globelabs/blob/master/LICENSE).
