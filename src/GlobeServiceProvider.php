@@ -2,9 +2,9 @@
 
 namespace CoreDev\LaravelGlobeLabs;
 
-use GlobeApi;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
+use CoreDev\LaravelGlobeLabs\GlobeApi;
 
 class GlobeServiceProvider extends ServiceProvider
 {
