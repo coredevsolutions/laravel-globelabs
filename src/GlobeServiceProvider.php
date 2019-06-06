@@ -17,9 +17,4 @@ class GlobeServiceProvider extends ServiceProvider
 			return new GlobeApi($client);
 		});
 	}
-
-	public function boot()
-	{
-		//
-	}
 }
