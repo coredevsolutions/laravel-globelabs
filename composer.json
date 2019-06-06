@@ -16,16 +16,16 @@
     ],
     "autoload": {
         "psr-4": {
-            "Globe\\": "src/"
+            "CoreDev\\LaravelGlobeLabs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "CoreDev\\LaravelGlobeLabs\\GlobeServiceProvider::class"
+                "CoreDev\\LaravelGlobeLabs\\GlobeServiceProvider"
             ],
             "aliases": {
-                "Globe": "CoreDev\\LaravelGlobeLabs\\Globe::class"
+                "Globe": "CoreDev\\LaravelGlobeLabs\\Globe"
             }
         }
     }
