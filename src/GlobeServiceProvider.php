@@ -2,6 +2,7 @@
 
 namespace CoreDev\LaravelGlobeLabs;
 
+use GlobeApi;
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
 
