@@ -10,7 +10,7 @@ A simple Laravel package for [GlobeLabs SMS API](http://www.globelabs.com.ph/#!/
 
 - Laravel 5.5+
 - PHP 7+
-- Guzzle 4+
+- Guzzle 6+
 
 
 
@@ -35,7 +35,6 @@ Register provider and aliases on your `config/app.php` file.
 
 'aliases' => [
     'Globe' => CoreDev\LaravelGlobeLabs\Globe::class,
-    'GlobeApi' => CoreDev\LaravelGlobeLabs\GlobeApi::class,
 ],
 ```
 
