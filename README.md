@@ -2,7 +2,7 @@
 
 #### Overview
 
-A Laravel package for [GlobeLabs SMS API](http://www.globelabs.com.ph/#!/developer/api/sms).
+A Laravel package for sending SMS through [GlobeLabs SMS API](http://www.globelabs.com.ph/#!/developer/api/sms).
 
 
 
