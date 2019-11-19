@@ -54,9 +54,9 @@ Globe::send('phone_number', 'message', 'passphrase', 'app_id', 'app_secret', 'sh
 
 #### Credits
 
-- Kurt Dacudag ([@kpdcdg](https://github.com/kpdcdg))
-- Mark Kevin Pogoy ([@marklee138](https://github.com/marklee138/))
-- Bree Dingding ([@breekoy](https://github.com/breekoy))
+- ([@kpdcdg](https://github.com/kpdcdg))
+- ([@marklee138](https://github.com/marklee138/))
+- ([@breekoy](https://github.com/breekoy))
 
 
 
