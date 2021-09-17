@@ -13,7 +13,7 @@ class GlobeApi
 		$this->client = $client;
 	}
 
-	public function send($number, $message, $passphrase, $app_id, $app_secret, $short_code)
+	public function send(string $number, string $message, string $passphrase, string $app_id, string $app_secret, string $short_code, ?string $mask_name = null)
 	{
 		$url = 'outbound/' . $short_code . '/requests/';
 
@@ -23,9 +23,15 @@ class GlobeApi
 				'message' => $message,
 				'passphrase' => $passphrase,
 				'app_id' => $app_id,
-				'app_secret' => $app_secret,
+				'app_secret' => $app_secret
 			]
 		];
+
+		if (!is_null($mask_name)) {
+			$params = [
+				'form_params' => array_merge($params['form_params'], ['mask' => $mask_name])
+			];
+		}
 
 		$response = $this->client->post($url, $params);
 
