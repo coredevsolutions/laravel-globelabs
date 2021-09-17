@@ -49,7 +49,7 @@ use Globe;
 
 Globe::send('phone_number', 'message', 'passphrase', 'app_id', 'app_secret', 'short_code');
 
-//or with optional mask name (make sure you APP configured in GlobeLabs dashboard supports dynamic masked name)
+//with optional mask name parameter (make sure your APP configured in GlobeLabs dashboard supports dynamic masked name)
 Globe::send('phone_number', 'message', 'passphrase', 'app_id', 'app_secret', 'short_code', 'mask_name');
 ```
 
